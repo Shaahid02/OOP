@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.fxcoursework.HelloController">
+   <children>
+      <SplitPane dividerPositions="0.19126506024096387" layoutX="-1.0" orientation="VERTICAL" prefHeight="400.0" prefWidth="600.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0" style="-fx-background-color: F1F7A9;">
+               <children>
+                  <Label layoutX="119.0" layoutY="-1.0" prefHeight="74.0" prefWidth="355.0" text="What You Need">
+                     <font>
+                        <Font name="Times New Roman" size="53.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0" style="-fx-background-color: E1E888;">
+               <children>
+                  <Button fx:id="OPd" layoutX="39.0" layoutY="29.0" mnemonicParsing="false" onAction="#Opdsection" prefHeight="62.0" prefWidth="148.0" style="-fx-background-radius: 30;" text="OPD">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="231.0" layoutY="209.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="148.0" style="-fx-background-radius: 30;" text="Pediatricians">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="417.0" layoutY="29.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="148.0" style="-fx-background-radius: 30;" text="X RAY" textAlignment="CENTER">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="417.0" layoutY="116.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="148.0" style="-fx-background-radius: 30;" text="Dentists">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="Skin" layoutX="417.0" layoutY="209.0" mnemonicParsing="false" onAction="#SkinSection" prefHeight="62.0" prefWidth="148.0" style="-fx-background-radius: 30;" text="Skin specialists">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="39.0" layoutY="209.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="148.0" style="-fx-background-radius: 30;" text="orthopedist">
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="Cardio" layoutX="231.0" layoutY="29.0" mnemonicParsing="false" onAction="#Cardiosection" prefHeight="62.0" prefWidth="148.0" style="-fx-background-radius: 30;" text="Cardiologists">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="SCAN" layoutX="39.0" layoutY="116.0" mnemonicParsing="false" onAction="#goScanSec" prefHeight="62.0" prefWidth="148.0" style="-fx-background-radius: 30;" text="SCAN">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="Physician" layoutX="231.0" layoutY="116.0" mnemonicParsing="false" onAction="#Physection" prefHeight="62.0" prefWidth="148.0" style="-fx-background-radius: 30;" text="Physician">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>
